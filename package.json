@@ -1,0 +1,25 @@
+{
+  "name": "symbolgenerator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node src/index.js",
+    "build": "webpack --mode production",
+    "lint": "eslint ."
+  },
+  "author": "ZlayaZayaZ",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.24.5",
+    "@babel/core": "^7.24.5",
+    "@babel/preset-env": "^7.24.5",
+    "eslint": "^9.2.0",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "core-js": "^3.37.1"
+  }
+}
